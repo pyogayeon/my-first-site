@@ -99,12 +99,12 @@ export function About() {
     title: "소개",
     subtitle: "당신의 전문성과 열정을 소개해주세요.",
     background: {"image":"","video":"","color":"","opacity":0.1},
-    experienceCards: [{"icon":"briefcase","title":"회사명","period":"2020 - 현재","description":"직무 및 역할"},{"icon":"graduation","title":"학교명","period":"2016 - 2020","description":"전공 및 학위"},{"icon":"award","title":"자격증/수상","period":"2021","description":"설명을 입력하세요"}],
-    skills: [{"icon":"barChart","title":"도시·공간 데이터 분석","description":"R, SPSS 기반의 통계 분석 및 시각화"},{"icon":"pieChart","title":"GIS 공간 분석","description":"ArcGIS, QGIS 활용한 공간데이터 처리·지도 제작\n"},{"icon":"lineChart","title":"도시계획·부동산 시장 분석","description":"부동산 시장 데이터·도시현상 분석"}],
-    storyTitle: "나의 이야기",
-    story: ["저는 기술을 통해 사람들의 삶을 더 편리하고 의미 있게 만드는 일에 열정을 가지고 있습니다.","다양한 프로젝트를 통해 문제 해결 능력과 창의적인 사고를 키워왔으며, 팀원들과의 협업을 통해 함께 성장하는 가치를 배웠습니다.","앞으로도 지속적인 학습과 도전을 통해 더 나은 개발자가 되기 위해 노력하겠습니다."],
-    storyImage: "",
-    hobbies: ["📚 독서","☕ 카페 투어","🎨 전시회 관람","✈️ 여행"]
+    experienceCards: [{"icon":"graduation","title":"단국대학교 도시계획부동산학부","period":"2024~","description":"학부생"},{"icon":"award","title":"한국사능력검정시험 1급 취득","period":"2024","description":"설명을 입력하세요"},{"icon":"award","title":"컴퓨터활용능력시험 2급 취득","period":"2024","description":"설명을 입력하세요"},{"icon":"award","title":"도시계획기사 자격증 준비","period":"2025~","description":"설명을 입력하세요"}],
+    skills: [{"icon":"barChart","title":"도시·공간 데이터 분석","description":"R, SPSS 기반의 통계 분석 및 시각화"},{"icon":"pieChart","title":"GIS 공간 분석","description":"ArcGIS, QGIS 활용한 공간데이터 처리·지도 제작\n"},{"icon":"brain","title":"도시계획·부동산 시장 분석","description":"부동산 시장 데이터·도시현상 분석"},{"icon":"star","title":"레포트·제안서 작성 능력","description":""}],
+    storyTitle: "About Me",
+    story: ["저는 데이터 기반의 도시 문제 진단과 전략적 해석에 강점을 지닌 도시계획 전공자입니다.","다양한 데이터를 활용해 도시 현상을 구조적으로 이해하고, 이를 계획·정책적 인사이트로 연결하는 데 집중하고 있습니다.","도시데이터 분석 역량을 강화하기 위해 학부 전공 외에도 타 전공의 데이터 분석 수업을 적극적으로 수강하며\nSPSS와 R을 활용한 회귀분석·군집분석·요인분석 등 정량 분석 기법을 실습해왔습니다.\n또한 ArcGIS·QGIS 기반의 공간데이터 분석을 통해 도시 문제의 공간적 패턴을 탐색하는 역량을 꾸준히 쌓아왔습니다.","도시계획 분야에서는 언론·학술자료·산업 보고서 등을 통해 도시 이슈와 트렌드를 빠르게 캐치하고,\n이를 기반으로 도시문제 진단·연구 기획·정책 제안서 작성을 수행해 왔습니다.","특히 도시·부동산 시장 변화, 글로벌 도시 전략, 메가트렌드(스마트시티·도시재생·모빌리티 등)에 관심이 깊어\n국내 도시 발전의 방향성을 고민하며 자료를 분석하고 인사이트를 정리하는 활동을 지속하고 있습니다.","앞으로도 정량적 데이터 분석과 정성적 도시 인사이트를 결합하여,\n도시의 변화를 객관적으로 이해하고, 실행력 있는 전략을 제시할 수 있는 데이터 기반 도시계획 실무자로 성장하고자 합니다."],
+    storyImage: "/uploads/about-image-1765046862118.jpg",
+    hobbies: ["📚 독서","☕ 카페 투어","🎮 게임"]
   }
   
   const [aboutInfo, setAboutInfo] = useState(defaultInfo)

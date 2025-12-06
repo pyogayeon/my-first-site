@@ -36,8 +36,8 @@ export function Contact() {
   const defaultInfo = {
     name: "표가연",
     title: "",
-    company: "",
-    experience: "3년 경력",
+    company: "단국대학교 도시계획부동산학부",
+    experience: "",
     phone: "010-6479-8864",
     email: "dmssk1266@naver.com",
     website: "",

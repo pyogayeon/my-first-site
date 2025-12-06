@@ -36,16 +36,16 @@ export function Hero() {
   const defaultSocialLinks = [{"name":"Instagram","icon":"instagram","url":"https://instagram.com/username"},{"name":"YouTube","icon":"youtube","url":"https://youtube.com/@username"}]
   
   const defaultInfo = {
-    greeting: "안녕하세요,",
+    greeting: "단국대학교 도시계획부동산학부",
     name: "표가연",
-    title: "단국대 도시계획부동산학부 32234771 표가연",
-    description: "도시 문제를 데이터로 분석하고\n더 나은 공간 전략을 제시하는 기획자입니다.",
+    title: "도시 문제를 데이터로 분석하고, 더 나은 공간 전략을 설계하기 위해 성장 중인 도시계획 전공자입니다.",
+    description: "",
     profileImage: "/uploads/hero-profile-1761477237286.png",
     backgroundImage: "",
     backgroundVideo: "",
     backgroundOpacity: 0.1,
     projectButton: "프로젝트 보기",
-    background: {"image":"","video":"","color":"#a4c6ea","opacity":0.3}
+    background: {"image":"","video":"/uploads/hero-background-video-1765047683734.mp4","color":"","opacity":0.8}
   }
 
   const [backgroundData, setBackgroundData] = useState<{ image: string; video: string; color: string; opacity: number } | null>(null)
