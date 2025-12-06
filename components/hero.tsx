@@ -39,13 +39,13 @@ export function Hero() {
     greeting: "안녕하세요,",
     name: "표가연",
     title: "단국대 도시계획부동산학부 32234771 표가연",
-    description: "프롭테크 기술로 부동산 시장을 분석합니다.",
+    description: "도시 문제를 데이터로 분석하고\n더 나은 공간 전략을 제시하는 기획자입니다.",
     profileImage: "/uploads/hero-profile-1761477237286.png",
     backgroundImage: "",
     backgroundVideo: "",
     backgroundOpacity: 0.1,
     projectButton: "프로젝트 보기",
-    background: {"image":"/uploads/hero-background-1765010932175.jpg","video":"","color":"","opacity":0.1}
+    background: {"image":"","video":"","color":"#a4c6ea","opacity":0.3}
   }
 
   const [backgroundData, setBackgroundData] = useState<{ image: string; video: string; color: string; opacity: number } | null>(null)
