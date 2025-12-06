@@ -16,14 +16,9 @@ export function Projects() {
     title: "프로젝트",
     subtitle: "프로젝트",
     initialDisplay: 6,
-    loadMoreCount: 3,
-    background: {
-      image: "",
-      video: "",
-      color: "",
-      opacity: 0.1
-    },
-    projects: [] as Array<{ image: string; video?: string; title: string; description: string }>
+    loadMoreCount: 6,
+    background: {"image":"","video":"","color":"","opacity":0.1},
+    projects: [{"image":"/uploads/project-0-1765012141395.png","video":"","title":"HSBC빌딩 투자제안의 건","description":"투자자들에게 서울 CBD 핵심 지역에 위치한 HSBC 빌딩의 특정 지분(구분소유)에 투자하여 수익을 창출할 것을 제안하는 부동산 투자 상품 제안서입니다."},{"image":"/uploads/project-1765012442975-1765012443037.png","video":"","title":"녹색금융이 부동산 PF에 미치는 영향: 해외 사례를 참고하여","description":"녹색금융과 ESG 연계 PF의 구조적 특징을 분석한 후, 주요 해외 사례를 참고하여 국내 정책적 시사점과 향후 과제를 도출한 레포트입니다."},{"image":"/uploads/project-1765013135301-1765013135359.png","video":"","title":"2025년 성남시 공공데이터 활용/분석 아이디어 제안서","description":"높은 건물 밀도와 건폐율로 인해 도시열섬 현상이 심화되고 있는 성남시 분당구(분당동, 구미동, 금곡동)에 대해  유동인구, 토지피복, 건물 데이터를 종합 분석하여 열섬 취약 스팟을 도출하고, 이에 동네별 최적화된 스마트 기술을 적용할 것을 제안하는 아이디어 제안서입니다.\n"},{"image":"/uploads/project-1765014225192-1765014225326.png","video":"","title":"대학생의 다문화 정책 인식에 영향을 미치는 요인: 데이터 분석","description":"한국 대학생의 다문화 정책 인식에 영향을 미치는 요인을 파악하기 위해 설계한 연구로, 설문자료를 기반으로  다문화 학습 경험, 타문화 사람들과의 교류, 성별·학년·소득 수준 등이 정책 인식에 유의미한 영향을 미치는지  'R 통계분석'을 활용해 변수들의 유의미한 영향력을 검증했다. "}] as Array<{ image: string; video?: string; title: string; description: string }>
   }
 
   const [projectsInfo, setProjectsInfo] = useState(defaultInfo)
