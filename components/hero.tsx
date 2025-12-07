@@ -39,13 +39,13 @@ export function Hero() {
     greeting: "단국대학교 도시계획부동산학부",
     name: "표가연",
     title: "도시 문제를 데이터로 분석하고, 더 나은 공간 전략을 설계하기 위해 성장 중인 도시계획 전공자입니다.",
-    description: "",
+    description: "-",
     profileImage: "/uploads/hero-profile-1761477237286.png",
     backgroundImage: "",
     backgroundVideo: "",
     backgroundOpacity: 0.1,
     projectButton: "프로젝트 보기",
-    background: {"image":"","video":"/uploads/hero-background-video-1765047683734.mp4","color":"","opacity":0.8}
+    background: {"image":"","video":"/uploads/hero-background-video-1765047683734.mp4","color":"","opacity":1}
   }
 
   const [backgroundData, setBackgroundData] = useState<{ image: string; video: string; color: string; opacity: number } | null>(null)

@@ -44,7 +44,7 @@ export function Contact() {
     location: "경기도 용인시 수지구 죽전동 1325-9",
     workTime: "평일 09:00 - 18:00",
     responseTime: "24시간 이내 응답",
-    sectionTitle: "연락처",
+    sectionTitle: "Contact",
     sectionSubtitle: "프로젝트 문의나 협업 제안을 기다리고 있습니다. 편하신 방법으로 연락주세요!",
     qrTitle: "QR 코드로 연락처 저장",
     qrSubtitle: "스캔하면 연락처가 자동으로 저장됩니다",
