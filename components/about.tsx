@@ -98,7 +98,7 @@ export function About() {
   const defaultInfo = {
     title: "About",
     subtitle: "-",
-    background: {"image":"","video":"","color":"","opacity":0.1},
+    background: {"image":"","video":"","color":"#000000","opacity":0.1},
     experienceCards: [{"icon":"graduation","title":"단국대학교 도시계획부동산학부","period":"2024~","description":"학부생"},{"icon":"book","title":"OCA 학회","period":"2024","description":"서울/경기 정치·외교·행정분야 대학생연합학회"},{"icon":"book","title":"URID 학술동아리","period":"2025","description":"-"},{"icon":"award","title":"한국사능력검정시험 1급 취득","period":"2025","description":"-"},{"icon":"award","title":"컴퓨터활용능력시험 2급 취득","period":"2025","description":"-"},{"icon":"award","title":"도시계획기사시험 준비","period":"2025~","description":"-"}],
     skills: [{"icon":"barChart","title":"도시·공간 데이터 분석","description":"R, SPSS 기반의 통계 분석 및 시각화"},{"icon":"pieChart","title":"GIS 공간 분석","description":"ArcGIS, QGIS 활용한 공간데이터 처리·지도 제작\n"},{"icon":"brain","title":"도시계획·부동산 시장 분석","description":"부동산 시장 데이터·도시현상 분석"},{"icon":"star","title":"레포트·제안서 작성 능력","description":"-"},{"icon":"rocket","title":"기획 및 실행력","description":"학회의 대외협력부서 임원을 맡으며 각종 행사 및 여러 대학에서의 명사 초청 세미나 기획 및 주최"}],
     storyTitle: "About Me",

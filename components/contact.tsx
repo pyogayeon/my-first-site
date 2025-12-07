@@ -52,7 +52,7 @@ export function Contact() {
     bottomSubMessage: "고객님의 성공적인 프로젝트를 위해 최선을 다하겠습니다.",
     qrContent: ["name","phone","email","location","website"],
     profileEmoji: "👤",
-    background: {"image":"","video":"","color":"","opacity":0.1}
+    background: {"image":"","video":"","color":"#000000","opacity":0.3}
   }
   
   // 소셜 링크 기본값 (배열 형태로 변경)
